@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  list-style-type: none;
+  color: white;
+  height: 70px;
+  gap: 20px;
+  font-size: 15px;
+}
+nav ul li img {
+  height: 45px;
+}
+nav ul .brand {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.container {
+  min-height: 72vh;
+  background-color: black;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 10px;
+  background-image: url(https://wallpapercave.com/wp/wp8047523.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+h3 {
+  font-size: 30px;
+  margin-left: 10px;
+  min-width: 200px;
+}
+.songItemsContainer {
+  margin-top: 30px;
+  
+}
+
+.songItems {
+  margin-top: 13px;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  border-radius: 34px;
+  padding: 3px 12px;
+}
+.songItemsTimer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.songItems img {
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+.fa-solid {
+  cursor: pointer;
+}
+
+.foot {
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 30px;
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
+}
+.foot .icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+.foot #slider {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songinfo {
+  position: absolute;
+  left: 10vw;
+  top: 2vw;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
